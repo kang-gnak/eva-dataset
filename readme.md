@@ -1,6 +1,4 @@
-#Explainable Visual Aesthetics(EVA) Dataset
-
-The whole dataset will be fully released in October.
+Explainable Visual Aesthetics(EVA) Dataset
 
 This Explainable Visual Aesthetics(EVA) Dataset contains 5 csv files and the resized images of AVA dataset: 
 image_content_category.csv, users.csv, votes.csv, votes_filtered.csv, region_index.csv.
