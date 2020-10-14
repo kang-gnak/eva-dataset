@@ -11,9 +11,7 @@ The method, filter method and basic summary can be found in the paper. All of th
 
 This folder contains all the resized images we selected from AVA dataset.
 
-You can use our classification of content with EVA_category or use your own classification on EVA_whole.
-
-You can decide to download the images or not. Notice the images are 600-700MB.
+You can use our classification of image category in image_content_category.csv or use your own classification. Notice the images are 600-700MB.
 
 #data folder#
 
