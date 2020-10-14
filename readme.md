@@ -9,9 +9,11 @@ The method, filter method and basic summary can be found in the paper. All of th
 
 #images folder#
 
-This folder contains all the resized images we selected from AVA dataset.
+This folder contains the resized images we selected from AVA dataset and showed to subjects.
 
 You can use our classification of image category in image_content_category.csv or use your own classification. Notice the images are 600-700MB.
+
+If you cannot download it successfully, you can go to https://mycore.core-cloud.net/index.php/s/ogTxYkJLrDr9x9Q for the two zip image files. EVA_category.zip contains images classified to different folders; EVA_together.zip contains all the images.
 
 #data folder#
 
