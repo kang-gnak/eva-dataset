@@ -7,7 +7,7 @@ This Explainable Visual Aesthetics(EVA) Dataset contains 5 csv files and the res
 
 The method, filter method and basic summary can be found in the paper. All of the processings we did are in python 3.6 and MATLAB.
 
-#images folder#
+# images folder# 
 
 This folder contains the resized images we selected from AVA dataset and showed to subjects.
 
@@ -15,15 +15,15 @@ You can use our classification of image category in image_content_category.csv o
 
 If you cannot download it successfully, you can go to https://mycore.core-cloud.net/index.php/s/ogTxYkJLrDr9x9Q for the two zip image files. EVA_category.zip contains images classified to different folders; EVA_together.zip contains all the images.
 
-#data folder#
+# data folder# 
 
-##image_content_category.csv##
+## image_content_category.csv## 
 
 The first column is the image id, which is their names in AVA dataset.
 
 The second column is the content 6 categories. Each image only belongs to one category. The classification method is described in the paper.
 
-##users.csv##
+## users.csv## 
 
 The delimiter is "=".
 
@@ -41,7 +41,7 @@ eyecheck: '1':'glasses','2':'colour blind','0':'none','1,2':'both'
 
 Among them, 'E1773','C76','C77','E148','E1389','E1248','E2261', 'E2340', 'E150', 'E1853', 'E1798','E2334'and 'E2316'are the users that we can rely on their honesty in voting.
 
-##votes.csv##
+## votes.csv## 
 
 The delimiter is "=".
 
@@ -61,7 +61,7 @@ device: the browser information
 
 vote_time: the voting time from last vote's submittion to this vote's submittion in seconds.
 
-##votes_filtered.csv##
+## votes_filtered.csv## 
 
 These are filtered votes we used.
 
@@ -81,12 +81,12 @@ vote_time: the voting time from last vote's submittion to this vote's submittion
 
 1,2,3,4: 1=light and colour, 2=composition and depth, 3=quality, 4=semantic; value 1 means this checkbox is clicked, value 0 means it is not.
 
-##region_index.csv##
+## region_index.csv## 
 
 This is the region list and their codes used in users.csv.
 
 The delimiter is "=".The first column is the codes, and the second column is the regions.
 
-#More info#
+# More info# 
 
 Analysis between AVA and EVA will be updated.
