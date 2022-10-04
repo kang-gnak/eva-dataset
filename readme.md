@@ -9,7 +9,14 @@ The method, filter method and basic summary can be found in the paper. All of th
 
 # images folder
 
-This folder contains the resized images we selected from AVA dataset and showed to subjects.
+This folder contains seven zip files called `EVA_together.zip.00X` for `X=1,...,7`. To unzip the pictures, concatenate the zip files into a single zip file before unzipping it, ie
+```
+cd images
+cat EVA_together.zip.001  EVA_together.zip.002  EVA_together.zip.003  EVA_together.zip.004  EVA_together.zip.005  EVA_together.zip.006  EVA_together.zip.007 > EVA_together.zip
+unzip EVA_together.zip
+```
+
+the resized images we selected from AVA dataset and showed to subjects. 
 
 You can use our classification of image category in image_content_category.csv or use your own classification. Notice the images are 600-700MB.
 
